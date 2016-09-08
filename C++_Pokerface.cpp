@@ -2,8 +2,8 @@
 /*
  *	C++ Code Sample
  *	
- *  Created on: Oct. 12, 2012
- *      Author: Enze Zhou
+ *	Created on: Oct. 12, 2012
+ *		Author: Enze Zhou
  */
 
 #include <stdio.h>
@@ -60,7 +60,7 @@ namespace {
 	 * 	twoPowers[i] = 2 ^ i, which is the size of the subtree if the node is at height i.
 	 *	Store these numbers as constent here so that there's no need to calculate when using them.
 	 */
-	const int twoPowers[MAX_HEIGHT + 1] = {	1, 		2, 		4, 		8, 		16, 	32, 	64,
+	const int twoPowers[MAX_HEIGHT + 1] = {	1,		2,		4,		8,		16,		32,		64,
 											128, 	256, 	512, 	1024, 	2048,	4096, 	8192,
 											16384, 	32768, 	65536, 	131072, 262144, 524288, 1048576};
 
